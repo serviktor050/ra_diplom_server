@@ -1,0 +1,28 @@
+{
+  "name": "ra_diplom_server",
+  "version": "1.0.0",
+  "description": "Реакт. Сервер для диплома",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serviktor050/ra_diplom_server.git"
+  },
+  "author": "serviktor050",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serviktor050/ra_diplom_server/issues"
+  },
+  "homepage": "https://github.com/serviktor050/ra_diplom_server#readme",
+  "dependencies": {
+    "forever": "^3.0.4",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "koa2-cors": "^2.0.6"
+  }
+}
